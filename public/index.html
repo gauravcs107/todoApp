@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title style="alignment: center"> Todo App</title>
+    <style>
+
+        #A {
+            background-color: yellowgreen;
+            /*height: 100%;*/
+            /*position: ab;*/
+            /*top: 0;*/
+            /*left: 0;*/
+            /*width: 100%;*/
+        }
+        #B {
+            background-color:cadetblue;
+            /*height: 100%;*/
+            /*position: ab;*/
+            /*top: 0;*/
+            /*left: 0;*/
+            /*width: 100%;*/
+        }
+        #C {
+            background-color:rosybrown;
+            /*height: 100%;*/
+            /*position: ab;*/
+            /*top: 0;*/
+            /*left: 0;*/
+            /*width: 100%;*/
+        }
+    </style>
+
+    <link rel="stylesheet" href="/styles.css"/>
+</head>
+
+<body bgcolor="aqua">
+
+<h1 align="center">My Todo List</h1>
+
+
+<section id="A" >
+<h1>Active List</h1>
+
+    <div id="active_list">
+
+
+    </div>
+
+</section>
+
+<hr>
+
+<section id="B">
+    <h1>Completed list</h1>
+
+    <div id="completed_list">
+
+
+    </div>
+</section >
+
+<hr>
+
+<section id="C">
+    <h1>Deleted list</h1>
+
+    <div id="deleted_list">
+
+
+    </div>
+</section>
+
+<hr>
+
+<div id="todos_list_div">
+
+
+</div>
+
+<br>
+
+
+<input type="text" id="new_todo_input" placeholder="Enter Todo Title Here"/>
+
+<input type="button" value="Add Todo" onclick="addTodoAJAX()"/>
+
+
+<script src="/script.js" type="text/javascript"></script>
+</body>
+
+
+
+
+</html>
